@@ -15,6 +15,8 @@ namespace MyApp
             thread1.Start();
             thread2.Start();
 
+
+
             static void FirstThread()
             {
                 Console.WriteLine("[Поток 1] Запуск потока.");
